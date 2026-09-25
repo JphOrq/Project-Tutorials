@@ -501,6 +501,5 @@ document.getElementById("currentYear").textContent = currentYear;
 const backToTop = document.getElementById("backToTop");
 // Show/hide button when scrolling
 window.addEventListener("scroll", () => { if (window.scrollY > 400) { backToTop.classList.add("show"); } else { backToTop.classList.remove("show"); } });
-
 // Scroll smoothly to the top
 backToTop.addEventListener("click", () => { window.scrollTo({ top: 0, behavior: "smooth" }); });
