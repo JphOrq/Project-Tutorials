@@ -1,7 +1,3 @@
-/*
-      Tutorial data lives here so the directory is easy to maintain.
-      Replace the example URLs with the exact tutorial/source you want to curate.
-    */
 const languages = [
   {
     name: "C++",
