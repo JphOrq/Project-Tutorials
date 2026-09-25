@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Build From Scratch — a curated hub of project-based programming tutorials."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Build From Scratch — Project-Based Programming Tutorials</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#">Build<span>From</span>Scratch</a>
+        <span class="result-count" id="headerCount"
+          >Project-based learning</span
+        >
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="hero">
+        <span class="eyebrow">Learn by building</span>
+        <h1>Project-based programming tutorials.</h1>
+        <p>
+          A practical directory of guides for developers who want to understand
+          how software works by building it from scratch.
+        </p>
+      </section>
+
+      <section class="controls" aria-label="Tutorial controls">
+        <label class="search">
+          <span class="search-icon">⌕</span>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search projects, languages, or topics..."
+            autocomplete="off"
+          />
+        </label>
+        <div class="result-count" id="resultCount"></div>
+      </section>
+
+      <nav class="toc" aria-label="Table of contents">
+        <h2>Languages & topics</h2>
+        <ul class="toc-list" id="tocList"></ul>
+      </nav>
+
+      <main id="tutorialSections"></main>
+
+      <div class="empty" id="emptyState">
+        <strong>No tutorials found.</strong>
+        Try a different project name, language, or topic.
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-inner">
+        <span>Build From Scratch</span>
+        <span
+          >Learn the concepts. Build the project. Understand the system.</span
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
